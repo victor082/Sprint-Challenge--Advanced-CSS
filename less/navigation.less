@@ -1,1 +1,27 @@
 // Navigation code here
+header {
+    text-align: center;
+    border-bottom: 1px solid @sea-shell;
+    background-color: @wild-sand;
+    h1 {
+        font-size: 4.5rem;
+        padding-top: 20px;
+    }
+    nav {
+        display: flex;
+        justify-content: center;
+        padding-top: 10px;
+        a {
+            .boldf();
+            text-decoration: none;
+            color: @river-bend;
+            padding: 0 1%;
+            font-size: 1.5rem;
+            margin-bottom: 10px;
+        }
+    }
+}
+a:hover {
+    background: @river-bend;
+    color: @wild-sand;
+}

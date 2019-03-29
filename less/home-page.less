@@ -1,7 +1,19 @@
 // Home Content
 
 .home {
-
+  margin: 0 auto;
+  max-width: 800px;
+  width: 100%;
+  .main-header-img {
+    border-radius: 5px;
+  }
+  p {
+    .boldf();
+    color: @shuttle-gray;
+  }
+  h3 {
+    .boldf();
+  }
   .intro {
 
     h2 {
@@ -10,6 +22,7 @@
 
     p {
       padding:0 15px;
+      
     }
   
   }
@@ -58,6 +71,16 @@
       }
 
       .btn {
+        button {
+          color: white;
+          .boldf();
+          background: @ebony-clay;
+          border-radius: 5px;
+          font-size: 1.7rem;
+          width: 90px;
+          height: 30px;
+          border: none;
+        }
       }
     }
 
