@@ -1,0 +1,62 @@
+.about {
+    display: flex;
+    flex-wrap: wrap;
+    width: 800px;
+    margin: 0 auto;
+    .wwa {
+        margin-top: 25px;
+        border-bottom: 1px solid @shuttle-gray;
+        padding-bottom: 20px;
+        margin-block-end: 20px;
+        h1 {
+            text-align: left;
+            font-size: 5rem;
+            margin-bottom: 10px;
+        }
+        p {
+            .boldf();
+            color: @shuttle-gray;
+            margin-left: 5%;
+        }
+    }
+    .wcu {
+        h1 {
+            font-size: 5rem;
+            margin-bottom: 10px;
+        }
+        p {
+            .boldf();
+            color: @shuttle-gray;
+            margin-left: 5%;
+        }
+    }
+}
+.aboutpic1 {
+    display: flex;
+    justify-content: center;
+    max-width: 100%;
+    margin-bottom: 20px;
+    .astronaut-pic {
+        width: 28%;
+        margin: 20px 2.5%;
+        border-radius: 20px;
+        height: 100%;
+    }
+}
+.btn {
+    display: flex;
+    justify-content: center;
+    button {
+        font-size: 2rem;
+        margin-bottom: 35px;
+        .button-size(10%, 50px);
+        .button-color(white, @ebony-clay);
+        border: none;
+        border-radius: 5px;
+    }
+}
+button:hover {
+    background: @wild-sand;
+    color: @river-bend;
+    border: 1px solid black;
+}

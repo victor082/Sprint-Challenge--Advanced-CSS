@@ -1,1 +1,18 @@
 // Mixins Here
+.boldf {
+    font-weight: bold;
+}
+.border-radius {
+    border-radius: 5px;
+}
+
+// Parametric Mixin
+.button-size (@width, @height) {
+    width: @width;
+    height: @height;
+}
+
+.button-color (@color, @background-color) {
+    color: @color;
+    background-color: @background-color;
+}
