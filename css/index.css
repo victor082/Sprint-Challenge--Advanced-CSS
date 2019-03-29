@@ -330,3 +330,65 @@ footer {
   height: auto;
   border-radius: 10px;
 }
+.about {
+  display: flex;
+  flex-wrap: wrap;
+  width: 800px;
+  margin: 0 auto;
+}
+.about .wwa {
+  margin-top: 25px;
+  border-bottom: 1px solid #5E6164;
+  padding-bottom: 20px;
+  margin-block-end: 20px;
+}
+.about .wwa h1 {
+  text-align: left;
+  font-size: 5rem;
+  margin-bottom: 10px;
+}
+.about .wwa p {
+  font-weight: bold;
+  color: #5E6164;
+  margin-left: 5%;
+}
+.about .wcu h1 {
+  font-size: 5rem;
+  margin-bottom: 10px;
+}
+.about .wcu p {
+  font-weight: bold;
+  color: #5E6164;
+  margin-left: 5%;
+}
+.aboutpic1 {
+  display: flex;
+  justify-content: center;
+  max-width: 100%;
+  margin-bottom: 20px;
+}
+.aboutpic1 .astronaut-pic {
+  width: 28%;
+  margin: 20px 2.5%;
+  border-radius: 20px;
+  height: 100%;
+}
+.btn {
+  display: flex;
+  justify-content: center;
+}
+.btn button {
+  font-size: 2rem;
+  margin-bottom: 35px;
+  width: 10%;
+  height: 50px;
+  color: white;
+  background-color: #23293B;
+  border: none;
+  border-radius: 5px;
+}
+button:hover {
+  background: #F6F6F6;
+  color: #454A59;
+  border: 1px solid black;
+}
