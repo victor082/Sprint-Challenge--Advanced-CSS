@@ -5,7 +5,7 @@
   max-width: 800px;
   width: 100%;
   .main-header-img {
-    border-radius: 5px;
+    .border-radius();
   }
   p {
     .boldf();
@@ -72,13 +72,11 @@
 
       .btn {
         button {
-          color: white;
           .boldf();
-          background: @ebony-clay;
+          .button-size(90px, 30px);
+          .button-color(white, @ebony-clay);
           border-radius: 5px;
           font-size: 1.7rem;
-          width: 90px;
-          height: 30px;
           border: none;
         }
       }
